@@ -1,7 +1,7 @@
 import { listSubheaderClasses } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 
-export const shade = {
+export const shades = {
 
   primary: {
     100: "#cccccc",

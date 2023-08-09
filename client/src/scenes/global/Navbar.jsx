@@ -49,7 +49,7 @@ const Navbar = () => {
         >
           <IconButton sx={{ color: "black" }}>
             <SearchOutlined />
-          </IconButton> 
+          </IconButton>
           <IconButton sx={{ color: "black" }}>
             <PersonOutline />
           </IconButton>
@@ -59,10 +59,10 @@ const Navbar = () => {
           <IconButton sx={{ color: "black" }}>
             <MenuOutlined />
           </IconButton>
-          </Box>
         </Box>
       </Box>
-    );
-  };
+    </Box>
+  );
+};
 
 export default Navbar;

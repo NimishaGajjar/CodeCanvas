@@ -4,6 +4,7 @@ import Home from "./scenes/home/Home";
 import Checkout from "./scenes/checkout/Checkout";  
 import ItemDetails from "./scenes/itemDetails/ItemDetails"
 import Confirmation from "./scenes/checkout/Confirmation";
+import Navbar from "./scenes/global/Navbar";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -17,7 +18,8 @@ const ScrollToTop = () => {
 
 function App() {
   return <div className="app">
-    <BrowserRouter>
+    <BrowserRouter> 
+    <Navbar />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} /> 

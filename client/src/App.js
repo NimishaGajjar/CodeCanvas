@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Home from "./scenes/home/Home";
 
+
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 

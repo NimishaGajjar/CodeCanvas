@@ -6,6 +6,7 @@ import ItemDetails from "./scenes/itemDetails/ItemDetails"
 import Confirmation from "./scenes/checkout/Confirmation";
 import Navbar from "./scenes/global/Navbar";
 
+
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 

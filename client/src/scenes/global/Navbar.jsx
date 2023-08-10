@@ -54,6 +54,9 @@ function Navbar() {
           <IconButton sx={{ color: "black" }}>
             <PersonOutline />
           </IconButton>
+          <IconButton sx={{ color: "black" }}>
+            <PersonOutline />
+          </IconButton>
           <Badge
             badgeContent={cart.length}
             color="secondary"
@@ -82,6 +85,6 @@ function Navbar() {
       </Box>
     </Box>
   );
-}
+};
 
 export default Navbar;

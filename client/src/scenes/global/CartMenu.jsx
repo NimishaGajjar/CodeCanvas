@@ -136,7 +136,7 @@ const CartMenu = () => {
                 navigate("/checkout");
                 dispatch(setIsCartOpen({}));
               }}
-            >
+            > 
               CHECKOUT
             </Button>
           </Box>

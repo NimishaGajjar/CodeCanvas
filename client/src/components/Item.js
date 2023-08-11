@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from 'react-redux';
 import { IconButton, Box, Typography, useTheme, Button } from '@mui/material';
-import AddIcon from "@mui/material/Add";
+import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { shades } from "../theme";
 import { addToCart } from "../state";
@@ -41,7 +41,7 @@ const Item = ({ item, width }) => {
           style={{ cursor: 'pointer' }}
         />
         <Box
-          display={isHovered ? "blocked" : 'none'}
+          display={isHovered ? "block" : 'none'}
           position="absolute"
           bottom="10%"
           left="0"
@@ -53,7 +53,7 @@ const Item = ({ item, width }) => {
             <Box
               display="flex"
               alignItems="center"
-              backgroundColor={shade.neutral[100]}
+              backgroundColor={shades.neutral[100]}
               borderRadius="3px"
             >
               <IconButton onClick={() => setCount(Math.max(count - 1, 1))}>

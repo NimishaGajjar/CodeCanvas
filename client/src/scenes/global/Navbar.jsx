@@ -50,9 +50,12 @@ function Navbar() {
         >
           <IconButton sx={{ color: "black" }}>
             <SearchOutlined />
+<<<<<<< HEAD
           </IconButton>
           <IconButton sx={{ color: "black" }}>
             <PersonOutline />
+=======
+>>>>>>> origin/homepage
           </IconButton>
           <IconButton sx={{ color: "black" }}>
             <PersonOutline />
@@ -81,10 +84,16 @@ function Navbar() {
           <IconButton sx={{ color: "black" }}>
             <MenuOutlined />
           </IconButton>
+          </Box>
         </Box>
       </Box>
+<<<<<<< HEAD
     </Box>
   );
 };
+=======
+    );
+  };
+>>>>>>> origin/homepage
 
 export default Navbar;

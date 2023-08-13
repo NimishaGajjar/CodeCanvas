@@ -40,7 +40,7 @@ function Navbar() {
           sx={{ "&:hover": { cursor: "pointer" } }}
           color={shades.secondary[500]}
         >
-          ECOMMER
+          ESHOPPER
         </Box>
         <Box
           display="flex"
@@ -78,10 +78,10 @@ function Navbar() {
           <IconButton sx={{ color: "black" }}>
             <MenuOutlined />
           </IconButton>
-          </Box>
         </Box>
       </Box>
-    );
-  };
+    </Box>
+  );
+};
 
 export default Navbar;

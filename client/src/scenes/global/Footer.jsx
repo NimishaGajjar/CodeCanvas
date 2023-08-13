@@ -24,13 +24,10 @@ function Footer() {
             mb="30px"
             color={shades.secondary[500]}
           >
-            ECOMMER
+            ESHOPPER
           </Typography>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
+            Elevate your fashion game with ESHOPPER, your ultimate destination for trendy clothing and accessories. Explore a captivating collection of apparel designed to reflect your unique style. Shop confidently with secure transactions and timely deliveries. Join our fashion community and stay in the loop with the latest trends and exclusive offers. Unleash your fashion creativity with ESHOPPER.
           </div>
         </Box>
 
@@ -59,7 +56,7 @@ function Footer() {
             Contact Us
           </Typography>
           <Typography mb="30px">
-              290 Bremner Blvd, Toronto, ON M5V 3L9
+            290 Bremner Blvd, Toronto, ON M5V 3L9
           </Typography>
           <Typography mb="30px" sx={{ wordWrap: "break-word" }}>
             Email: random@gmail.com

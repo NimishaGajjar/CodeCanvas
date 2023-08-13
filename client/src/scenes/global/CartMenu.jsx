@@ -56,7 +56,7 @@ const CartMenu = () => {
               <CloseIcon />
             </IconButton>
           </FlexBox>
-          
+
           {/* Cart List */}
           <Box>
             {cart.map((item) => (
@@ -67,7 +67,7 @@ const CartMenu = () => {
                       alt={item?.name}
                       width="123px"
                       height="164px"
-                      src={`http://localhost:2000${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
+                      src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
                     />
                   </Box>
                   <Box flex="1 1 60%">
@@ -116,7 +116,7 @@ const CartMenu = () => {
               </Box>
             ))}
           </Box>
-          
+
           {/* Actions */}
           <Box m="20px 0">
             <FlexBox m="20px 0">
@@ -136,7 +136,7 @@ const CartMenu = () => {
                 navigate("/checkout");
                 dispatch(setIsCartOpen({}));
               }}
-            > 
+            >
               CHECKOUT
             </Button>
           </Box>

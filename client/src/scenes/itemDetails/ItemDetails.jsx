@@ -25,7 +25,7 @@ const ItemDetails = () => {
 
   async function getItem() {
     const item = await fetch(
-      `http://localhost:2000/api/items/${itemId}?populate=image`,
+      `http://localhost:1337/api/items/${itemId}?populate=image`,
       {
         method: "GET",
       }
@@ -36,7 +36,7 @@ const ItemDetails = () => {
 
   async function getItems() {
     const items = await fetch(
-      `http://localhost:2000/api/items?populate=image`,
+      `http://localhost:1337/api/items?populate=image`,
       {
         method: "GET",
       }
@@ -59,7 +59,7 @@ const ItemDetails = () => {
             alt={item?.name}
             width="100%"
             height="100%"
-            src={`http://localhost:2000${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
+            src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
             style={{ objectFit: "contain" }}
           />
         </Box>
@@ -127,9 +127,12 @@ const ItemDetails = () => {
       </Box>
       <Box display="flex" flexWrap="wrap" gap="15px">
         {value === "description" && (
-          <div>{item?.attributes?.longDescription}</div>
+
+          <div>
+            {item?.attributes?.longDescription}
+            {console.log("description:", item?.attributes?.longDescription)}</div>
         )}
-        {value === "reviews" && <div>reviews</div>}
+        {value === "reviews" && <div>Reviews</div>}
       </Box>
 
       {/* RELATED ITEMS */}

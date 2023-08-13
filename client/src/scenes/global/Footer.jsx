@@ -24,7 +24,7 @@ function Footer() {
             mb="30px"
             color={shades.secondary[500]}
           >
-            ESHOPPER
+            CodeCanvas
           </Typography>
           <div>
             Elevate your fashion game with ESHOPPER, your ultimate destination for trendy clothing and accessories. Explore a captivating collection of apparel designed to reflect your unique style. Shop confidently with secure transactions and timely deliveries. Join our fashion community and stay in the loop with the latest trends and exclusive offers. Unleash your fashion creativity with ESHOPPER.

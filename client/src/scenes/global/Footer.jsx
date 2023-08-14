@@ -27,7 +27,7 @@ function Footer() {
             CodeCanvas
           </Typography>
           <div>
-            Elevate your fashion game with ESHOPPER, your ultimate destination for trendy clothing and accessories. Explore a captivating collection of apparel designed to reflect your unique style. Shop confidently with secure transactions and timely deliveries. Join our fashion community and stay in the loop with the latest trends and exclusive offers. Unleash your fashion creativity with ESHOPPER.
+            "Unleash the laughter at codeCanvas – Your Hub for Programmer Meme Tees! Dive into our curated selection of witty t-shirts, tailor-made for coders. Express your coding humor through unique meme designs that speak your language. Elevate your programmer style with comfortable, high-quality tees. From coding in-jokes to tech-inspired humor, wear your wit proudly. Join us and flaunt your programming journey with a touch of humor!"
           </div>
         </Box>
 

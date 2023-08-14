@@ -38,7 +38,7 @@
     "category": {
       "type": "enumeration",
       "enum": [
-        "newArrivales",
+        "newArrivals",
         "bestSellers",
         "topRated"
       ]

@@ -31,17 +31,17 @@ CodeCanvas is an e-commerce website tailored to programmers. Our goal is to crea
 To get started with codeCanvas, follow these steps:
 
 1. Make sure you have Node.js and npm installed on your machine.
-2. Clone this repository: \`git clone git@github.com:NimishaGajjar/final-project.git\`
-3. Navigate to the project directory: \`cd final-project\`
-4. Install dependencies: \`npm install\`
-5. Start the development server using \`npm start\`.
-6. Open your web browser and visit \`http://localhost:3000\` to view the website.
+2. Clone this repository: `git clone git@github.com:NimishaGajjar/final-project.git`
+3. Navigate to the project directory: `cd final-project`
+4. Install dependencies: `npm install`
+5. Start the development server using `npm start`.
+6. Open your web browser and visit `http://localhost:3000` to view the website.
 
 ### Setting Up the Backend Server (Using Strapi)
 
 To power the backend of our codeCanvas website, we're using Strapi, an open-source headless CMS and API server. Follow these steps to set up the backend server:
 
-1. **Sign Up for a Strapi Account:** If you don't have a Strapi account already, you'll need to sign up for one on the [Strapi website](https://strapi.io/register).
+1. **Sign Up for a Strapi Account:** If you don't have a Strapi account already, you'll need to sign up for one on the [Strapi website](https://strapi.io).
 
 2. **Install and Configure Strapi:**
 

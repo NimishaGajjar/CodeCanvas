@@ -37,7 +37,7 @@ To get started with codeCanvas, follow these steps:
 5. Start the development server using `npm start`.
 6. Open your web browser and visit `http://localhost:3000` to view the website.
 
-### Setting Up the Backend Server (Using Strapi)
+ Setting Up the Backend Server (Using Strapi)
 
 To power the backend of our codeCanvas website, we're using Strapi, an open-source headless CMS and API server. Follow these steps to set up the backend server:
 
